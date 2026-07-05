@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f2f2f2;
+        }
+        .container{
+            width:350px;
+            margin:100px auto;
+            background:yellow;
+            padding:20px;
+            border-radius:4px;
+            box-shadow:0 0 10px gray;
+        }
+        input{
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+        }
+        button{
+            width:100%;
+            padding:10px;
+            background:pink;
+            color:white;
+            border: 40px;;
+        }
+        button:hover{
+            background:darkblue;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 align="center">Login</h2>
+
+    <form method="POST">
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter Email" required>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <br>
+
+    <center>
+        <a href="/register">Don't have an account? Register</a>
+    </center>
+
+</div>
+</body>
+</html>
